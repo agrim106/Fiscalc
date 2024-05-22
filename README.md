@@ -1,0 +1,1 @@
+This is currently a front-end project of a financial calculator, I have made calculators of student loans, Auto loans and mortgage loans. This is an idea in development. In the future, I will reintergrate backend.

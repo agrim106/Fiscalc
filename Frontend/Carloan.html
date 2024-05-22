@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Loan Calculator</title>
+    <link rel="stylesheet" href="Carloan.css">
+</head>
+<body>
+    <div class="content">
+        <div class="left-text">
+            <h2>Welcome to our Car Loan Calculator!</h2>
+            <p><h3>This calculator helps you estimate your monthly auto loan payments based on the loan amount, interest rate, loan term, and down payment.
+            Get an estimate of the monthly auto loan payment you could pay using this auto loan calculator.
+            <br>Start with your details.</h3></p>
+        </div>
+    <div class="calculator-wrapper">
+        <h1>Car Loan Calculator</h1>
+        <div class="wrapper">
+            <div class="form-box">
+                <h2>Vehicle Price</h2>
+                <input type="number" id="vehiclePrice">
+            </div>
+            <div class="form-box">
+                <h2>Down Payment</h2>
+                <input type="number" id="downPayment">
+            </div>
+            <div class="form-box">
+                <h2>Interest Rate</h2>
+                <input type="number" id="interestRate" step="0.01">
+            </div>
+            <div class="form-box">
+                <h2>Loan Term</h2>
+                <input type="number" id="loanTerm">
+            </div>
+            <button id="calculateBtn">Calculate</button>
+            <div class="form-box">
+                <h2>Monthly Payment</h2>
+                <p id="monthlyPayment">$0.00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="Carloan.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Loan Calculator</title>
+    <link rel="icon" href="images/fiscalc-favicon-color.png" type="image/icon_type">
+    <link rel="stylesheet" href="studentloan.css">
+</head>
+<body>
+    <div class="content">
+        <div class="left-text">
+            <h2>Welcome to our Student Loan Calculator!</h2>
+            <p><h3>This calculator helps you estimate your monthly student loan payments based on loan amount, interest rate, and loan term.
+            Get an estimate of the monthly student loan payment you could pay, including any additional fees, using this calculator.
+            <br>Start with your details.</h3></p>
+        </div>
+    <div class="calculator-wrapper">
+        <h1>Student Loan Calculator</h1>
+        <div class="wrapper">
+            <div class="form-box">
+                <h2>Loan Amount</h2>
+                <input type="number" id="loanAmount">
+            </div>
+            <div class="form-box">
+                <h2>Interest Rate</h2>
+                <input type="number" id="interestRate" step="0.01">
+            </div>
+            <div class="form-box">
+                <h2>Loan Term</h2>
+                <input type="number" id="loanTerm">
+            </div>
+            <div class="form-box">
+                <h2>Additional Fees</h2>
+                <input type="number" id="additionalFees">
+            </div>
+            <button id="calculateBtn">Calculate</button>
+            <div class="form-box">
+                <h2>Monthly Payment</h2>
+                <p id="monthlyPayment">$0.00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="studentloan.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* autoloan.css */
+
+/* Body styles */
+body {
+    background-color: royalblue; /* Background color */
+}
+
+/* Content wrapper styles */
+.content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    padding: 50px;
+}
+
+/* Left text styles */
+.left-text {
+    flex: 1;
+}
+
+.left-text h2 {
+    color: gold; /* Text color */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+.left-text h3 {
+    color: silver; /* Text color */
+}
+
+
+.calculator-wrapper {
+    width: 600px; /* Increased width to accommodate additional input */
+    height: 770px; /* Increased height to fit the entire calculator */
+    border: 2px solid gold; /* Gold border */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Form box styles */
+.form-box {
+    width: 90%; /* Reduced width */
+    padding: 10px; /* Padding */
+    margin: 10px auto; /* Center align */
+    background-color: whitesmoke; /* White background */
+    border-radius: 10px;
+}
+
+/* Result box styles */
+.result-box {
+    width: 90%; /* Reduced width */
+    padding: 10px; /* Padding */
+    margin: 5px auto; /* Center align with smaller margin */
+    border: 2px solid gold; /* Gold border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: silver; /* White background */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Heading styles */
+h1 {
+    color: white; /* Text color */
+    text-align: center; /* Center align */
+    margin-top: 20px; /* Top margin */
+}
+
+h2 {
+    color: gold; /* Text color */
+    font-size: 1.5em; /* Font size */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Input styles */
+input {
+    width: calc(100% - 20px); /* Adjusted width */
+    height: 40px; /* Height */
+    padding: 0 10px; /* Padding */
+    font-size: 1em;
+    border: 2px solid #162938; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+input:focus {
+    border-color: gold; /* Border color on focus */
+}
+
+/* Button styles */
+button {
+    width: calc(100% - 20px); /* Adjusted width */
+    height: 50px; /* Height */
+    background-color: gold; /* Background color */
+    color: white; /* Text color */
+    font-size: 1.1em; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #ffd700; /* Background color on hover */
+}
+
+/* Monthly payment result styles */
+#monthlyPayment {
+    font-size: 1.2em; /* Font size */
+    color: #162938; /* Text color */
+    margin-bottom: 0; /* Remove bottom margin */
+}
